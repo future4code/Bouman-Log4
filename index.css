@@ -1,4 +1,8 @@
 /*Estilização Geral da Página*/
+/* --- Cola de Cores --- 
+    Primaria: Normal #c23949 | Light #fa6b74 | Dark #8c0022
+    Secundaria: Normal #25283d | Light #4e5068 | Dark #000018
+*/
 
 * {
     margin: 0;
@@ -30,4 +34,19 @@ header nav {
     justify-content: center;
     align-items: center;
     width: ;
+}
+
+/*----------------CONTEUDO 1----------------*/
+.container-conteudo{
+    background-color: #fa6b74;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-conteudo img{
+    width: 50%;
+}
+
+.container-conteudo h1{
+    align-self: center;
 }
