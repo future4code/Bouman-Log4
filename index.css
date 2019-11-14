@@ -1,0 +1,33 @@
+/*Estilização Geral da Página*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 980px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+header {
+    height: 10vh;
+    width: 100%;
+    background-color: #C23949;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header img {
+    width: auto;
+    height: 100%;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: ;
+}
