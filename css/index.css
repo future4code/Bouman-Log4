@@ -56,12 +56,90 @@ nav a:active {
     color: #C23949;
 }
 
+/*----------------CONTEUDO 1----------------*/
+.container-conteudo{
+    background-color: #fa6b74;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 11%;
+}
+
+.container-conteudo img{
+    width: 50%;
+}
+
+.container-texto{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-left: 5%;
+}
+
+.container-texto h1{
+    width: 100%;
+    align-self: center;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.container-texto p{
+    width: 100%;
+    color: rgba(0, 0, 0, 0.7);
+    align-self: center;
+    margin-top: 1%;
+}
+
+.container-texto button{
+    background-color: #4e5068;
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+    font-size: 100%;
+    padding: 10px 30px;
+    margin-top: 1%;
+}
+
+.container-texto button:hover{
+    background-color: #25283d;
+}
+
+/*----------------CONTEUDO 2----------------*/
+.container-conteudo-2 {
+    background-color: #25283d;
+}
+
+.container-conteudo-2 h2{
+    text-align: center;
+    color:  rgba(255, 255, 255, 0.7);  
+    margin-bottom: -3%;
+    padding-top: 5%;
+}
+
+.container-foco-produto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.produto{
+    width:  40%;
+    padding: 3%;
+    margin: 3% 0%;
+    text-align: center;
+    color:  rgba(255, 255, 255, 0.9);
+}
+
+.img-produto{
+    width: 100%;
+    max-height: 337.422px;
+}
+
+
 /*Rodapé*/
 
 footer {
     background-color: #25283d;
-    position: fixed;
-    bottom: 0;
     margin: 0 auto;
     text-align: center;
     width: 100%;
