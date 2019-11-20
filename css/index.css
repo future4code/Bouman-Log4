@@ -1,4 +1,4 @@
-/*Estilização Geral da Página*/
+/*----------------ESTILIZAÇÃO GERAL DA PÁGINA----------------*/
 
 * {
     margin: 0;
@@ -6,53 +6,53 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-.container {
-    width: 980px;
-    margin: 0 auto;
-    height: 100%;
-}
-
-/*Cabeçalho com logo e menu*/
+/*----------------CABEÇALHO----------------*/
 
 header {
     height: 10vh;
     width: 100%;
     background-color: #C23949;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    top: 0;
 }
 
-/* Logo */
+.container-header {
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/*----------------CABEÇALHO LOGO----------------*/
+
+header a:first-of-type {
+    width: fit-content;
+    height: fit-content;
+}
 
 header img {
-    width: auto;
+    width: 4.5em;
     height: 100%;
 }
 
-/*Menu*/
+/*----------------CABEÇALHO MENU----------------*/
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-self: initial;
-    position: absolute;
-    top: 3.5vh;
-    right: 10em;
+    display: inline-block;
 }
 
-nav a {
+nav > a {
     text-decoration: none;
     color:#ffffff;
-    margin-left: 2em;
+    margin-left: 1rem;
 }
 
-nav a:hover {
+nav > a:hover {
     color: #25283d;
 }
 
-nav a:active {
+nav > a:active {
     color: #C23949;
 }
 
@@ -61,7 +61,7 @@ nav a:active {
     background-color: #fa6b74;
     display: flex;
     justify-content: space-between;
-    padding-bottom: 11%;
+    padding: 6% 0;
 }
 
 .container-conteudo img{
@@ -105,12 +105,11 @@ nav a:active {
 
 /*----------------CONTEUDO 2----------------*/
 .container-conteudo-2 {
-    background-color: #25283d;
+    background-color: #FFFFFF;
 }
 
 .container-conteudo-2 h2{
     text-align: center;
-    color:  rgba(255, 255, 255, 0.7);  
     margin-bottom: -3%;
     padding-top: 5%;
 }
@@ -127,42 +126,61 @@ nav a:active {
     padding: 3%;
     margin: 3% 0%;
     text-align: center;
-    color:  rgba(255, 255, 255, 0.9);
 }
 
 .img-produto{
     width: 100%;
-    max-height: 337.422px;
+    height: 20em;
+    max-height: 600px;
+    max-width: 600px;
 }
 
 
-/*Rodapé*/
+/*----------------RODAPÉ----------------*/
+
+.container-footer {
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
 
 footer {
     background-color: #25283d;
-    margin: 0 auto;
     text-align: center;
     width: 100%;
-    height: 25vh;
+    height: 100%;
+    position: relative;
+    bottom: 0; 
 }
 
-footer img {
+footer h2 {
+    color: #ffffff;
+    margin-bottom: 1em;
+}
+
+.container-footer > img {
     width: 7em;
     height: 7em;
-    padding-top: 2em;
+    padding: 2em 0;
 }
 
 footer ul a {
     text-decoration: none;
+    width: fit-content;
+    height: fit-content;
 }
 
 footer ul li {
     display: inline;
-    margin: 0 2em 5em 2em;
-    width: 100%;
+    margin: 0 2em;
 }
 
 footer ul li img {
-    width: 45px;
-    height: 45px;
+    width: 2.5em;
+    height: 2.5em;
+    margin: 1.5em 0;
 }
