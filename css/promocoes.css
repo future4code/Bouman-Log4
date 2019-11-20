@@ -56,34 +56,66 @@ nav > a:active {
     color: #C23949;
 }
 
-/*----------------CONTEUDO DA PÁGINA----------------*/
-
 section{
     width: 100%;
     height: 100%;
 }
 
-.container-quem-somos {
+/*----------------CONTEUDO DA PÁGINA----------------*/
+
+section h1 {
+    text-align: center;
+    margin-top: 3em;
+    font-size: 22pt;
+}
+
+.container-promocoes {
     width: 60%;
     margin: 0 auto;
+    height: 40%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
+    padding: 5em 0;
+}
+
+.container-promocoes div {
+    border: 3px solid white;
+}
+
+.container-promocoes img {
+    width: 100%;
     height: 100%;
 }
 
-.container-quem-somos h2 {
-    font-size: 20pt;
-    color: #000000;
-    text-align: center;
-    margin: 2em;
+.container-promocoes div:nth-of-type(1){
+    grid-column: 1 / span 3;
+    grid-row:1 / span 3;
 }
 
-.container-quem-somos p {
-    text-align: justify;
-    text-indent: 3em;
-    padding: 1em 0;
+.container-promocoes div:nth-of-type(2){
+    grid-column: span 2;
+    grid-row: span 2;
 }
 
-.container-quem-somos p:last-of-type {
-    padding-bottom: 10em;
+.container-promocoes div:nth-of-type(3){
+    grid-column: 1 / span 2;
+    grid-row: 4 / span 3;
+}
+
+.container-promocoes div:nth-of-type(4){
+    grid-column: 3 / span 1;
+    grid-row: 4 / span 1;
+}
+
+.container-promocoes div:nth-of-type(5){
+    grid-column: 4 / span 2;
+    grid-row: 3 / span 2;
+}
+
+.container-promocoes div:nth-of-type(6){
+    grid-column: 3 / span 3;
+    grid-row: 5 / span 2;
 }
 
 /*----------------RODAPÉ----------------*/
