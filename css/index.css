@@ -1,0 +1,186 @@
+/*----------------ESTILIZAÇÃO GERAL DA PÁGINA----------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*----------------CABEÇALHO----------------*/
+
+header {
+    height: 10vh;
+    width: 100%;
+    background-color: #C23949;
+}
+
+.container-header {
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/*----------------CABEÇALHO LOGO----------------*/
+
+header a:first-of-type {
+    width: fit-content;
+    height: fit-content;
+}
+
+header img {
+    width: 4.5em;
+    height: 100%;
+}
+
+/*----------------CABEÇALHO MENU----------------*/
+
+nav {
+    display: inline-block;
+}
+
+nav > a {
+    text-decoration: none;
+    color:#ffffff;
+    margin-left: 1rem;
+}
+
+nav > a:hover {
+    color: #25283d;
+}
+
+nav > a:active {
+    color: #C23949;
+}
+
+/*----------------CONTEUDO 1----------------*/
+.container-conteudo{
+    background-color: #fa6b74;
+    display: flex;
+    justify-content: space-between;
+    padding: 6% 0;
+}
+
+.container-conteudo img{
+    width: 50%;
+}
+
+.container-texto{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-left: 5%;
+}
+
+.container-texto h1{
+    width: 100%;
+    align-self: center;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.container-texto p{
+    width: 100%;
+    color: rgba(0, 0, 0, 0.7);
+    align-self: center;
+    margin-top: 1%;
+}
+
+.container-texto button{
+    background-color: #4e5068;
+    color: #ffffff;
+    border: none;
+    border-radius: 2px;
+    font-size: 100%;
+    padding: 10px 30px;
+    margin-top: 1%;
+}
+
+.container-texto button:hover{
+    background-color: #25283d;
+}
+
+/*----------------CONTEUDO 2----------------*/
+.container-conteudo-2 {
+    background-color: #FFFFFF;
+}
+
+.container-conteudo-2 h2{
+    text-align: center;
+    margin-bottom: -3%;
+    padding-top: 5%;
+}
+
+.container-foco-produto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.produto{
+    width:  40%;
+    padding: 3%;
+    margin: 3% 0%;
+    text-align: center;
+}
+
+.img-produto{
+    width: 100%;
+    height: 20em;
+    max-height: 600px;
+    max-width: 600px;
+}
+
+
+/*----------------RODAPÉ----------------*/
+
+.container-footer {
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #25283d;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    bottom: 0; 
+}
+
+footer h2 {
+    color: #ffffff;
+    margin-bottom: 1em;
+}
+
+.container-footer > img {
+    width: 7em;
+    height: 7em;
+    padding: 2em 0;
+}
+
+footer ul a {
+    text-decoration: none;
+    width: fit-content;
+    height: fit-content;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 2em;
+}
+
+footer ul li img {
+    width: 2.5em;
+    height: 2.5em;
+    margin: 1.5em 0;
+}

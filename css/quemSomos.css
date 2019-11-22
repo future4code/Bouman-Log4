@@ -1,0 +1,135 @@
+/*----------------ESTILIZAÇÃO GERAL DA PÁGINA----------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*----------------CABEÇALHO----------------*/
+
+header {
+    height: 10vh;
+    width: 100%;
+    background-color: #C23949;
+}
+
+.container-header {
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/*----------------CABEÇALHO LOGO----------------*/
+
+header a:first-of-type {
+    width: fit-content;
+    height: fit-content;
+}
+
+header img {
+    width: 4.5em;
+    height: 100%;
+}
+
+/*----------------CABEÇALHO MENU----------------*/
+
+nav {
+    display: inline-block;
+}
+
+nav > a {
+    text-decoration: none;
+    color:#ffffff;
+    margin-left: 1rem;
+}
+
+nav > a:hover {
+    color: #25283d;
+}
+
+nav > a:active {
+    color: #C23949;
+}
+
+/*----------------CONTEUDO DA PÁGINA----------------*/
+
+section{
+    width: 100%;
+    height: 100%;
+}
+
+.container-quem-somos {
+    width: 60%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.container-quem-somos h2 {
+    font-size: 20pt;
+    color: #000000;
+    text-align: center;
+    margin: 2em;
+}
+
+.container-quem-somos p {
+    text-align: justify;
+    text-indent: 3em;
+    padding: 1em 0;
+}
+
+.container-quem-somos p:last-of-type {
+    padding-bottom: 10em;
+}
+
+/*----------------RODAPÉ----------------*/
+
+.container-footer {
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #25283d;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+footer h2 {
+    color: #ffffff;
+    margin-bottom: 1em;
+}
+
+.container-footer > img {
+    width: 7em;
+    height: 7em;
+    padding: 2em 0;
+}
+
+footer ul a {
+    text-decoration: none;
+    width: fit-content;
+    height: fit-content;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 2em;
+}
+
+footer ul li img {
+    width: 2.5em;
+    height: 2.5em;
+    margin: 1.5em 0;
+}
